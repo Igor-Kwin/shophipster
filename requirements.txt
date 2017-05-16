@@ -8,11 +8,12 @@ CairoSVG==2.0.3
 celery==3.1.18
 cffi==1.10.0
 cssselect==1.0.1
+dj-database-url==0.4.2
 Django==1.11.1
 django-paypal==0.3.6
 flower==0.9.1
-html5lib==0.999999999
 gunicorn==19.7.1
+html5lib==0.999999999
 kombu==3.0.37
 lxml==3.7.3
 olefile==0.44
