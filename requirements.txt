@@ -30,3 +30,4 @@ tornado==4.2
 WeasyPrint==0.36
 webencodings==0.5.1
 whitenoise==3.3.0
+setuptools>=0.7
