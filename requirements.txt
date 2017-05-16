@@ -12,6 +12,7 @@ Django==1.11.1
 django-paypal==0.3.6
 flower==0.9.1
 html5lib==0.999999999
+gunicorn==19.7.1
 kombu==3.0.37
 lxml==3.7.3
 olefile==0.44
