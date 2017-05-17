@@ -148,7 +148,4 @@ CART_SESSION_ID = 'cart'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-# Paypal
 
-PAYPAL_RECEIVER_EMAIL = 'dikiigr-facilitator-1@gmail.com'
-PAYPAL_TEST = True
