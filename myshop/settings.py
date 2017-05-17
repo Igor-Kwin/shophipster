@@ -88,6 +88,11 @@ DATABASES = {
     )
 }
 
+try:
+    from .local_settings import *
+except ImportError:
+pass
+
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 # Password validation
@@ -123,10 +128,6 @@ USE_L10N = True
 USE_TZ = True
 
 
-try:
-    from .local_settings import *
-except ImportError:
-    pass
 
 
 # Static files (CSS, JavaScript, Images)
